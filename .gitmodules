@@ -1,3 +1,4 @@
 [submodule "saboroso"]
     path = saboroso
-    url = https://github.com/usuario/saboroso.git
+    url = https://github.com/laempanadas/saboroso.git
+
