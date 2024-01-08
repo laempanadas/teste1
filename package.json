@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
   "start": "node server.js",
-  "build": "npm run lint && npm run compile"
+  "build": "npm run lint && npm run compile",
+  "lint": "eslint .",  // Adicione esta linha para o script lint
+  "compile": "tsc"
   },
   "dependencies": {
     "connect-redis": "^3.4.2",
