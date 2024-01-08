@@ -8,6 +8,7 @@
   "scripts": {
   "start": "node server.js",
   "build": "npm run lint && npm run compile",
+  "lint": "eslint .",
   "compile": "tsc"    
   },
   "dependencies": {
@@ -23,6 +24,9 @@
     "morgan": "~1.9.1",
     "mysql2": "^2.0.0",
     "socket.io": "^2.3.0"
+     },
+  "devDependencies": {
+    "eslint": "^7.0.0"
  
   }
 }
