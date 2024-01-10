@@ -6,17 +6,10 @@
     "node": "8.11.1"
   },
   "scripts": {
-<<<<<<< HEAD
     "start": "node server.js",
     "build": "npm run lint && npm run compile",
     "lint": "eslint .",
     "compile": "tsc"
-=======
-  "start": "node server.js",
-  "build": "npm run lint && npm run compile",
-  "lint": "eslint .",
-  "compile": "tsc"    
->>>>>>> c35c6bcd76e8e3c8ba7f4360919cf97ab757dc31
   },
   "dependencies": {
     "connect-redis": "^7.1.0",
@@ -30,18 +23,11 @@
     "moment": "^2.24.0",
     "morgan": "~1.9.1",
     "mysql2": "^2.0.0",
-<<<<<<< HEAD
     "socket.io": "^4.7.3"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2"
-=======
-    "socket.io": "^2.3.0"
-     },
-  "devDependencies": {
-    "eslint": "^7.0.0"
- 
->>>>>>> c35c6bcd76e8e3c8ba7f4360919cf97ab757dc31
   }
 }
+
