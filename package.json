@@ -2,9 +2,6 @@
   "name": "saboroso",
   "version": "0.0.0",
   "private": true,
-  "engines": {
-    "node": "8.11.1"
-  },
   "scripts": {
     "start": "node server.js",
     "build": "npm run lint && npm run compile",
@@ -23,11 +20,13 @@
     "moment": "^2.24.0",
     "morgan": "~1.9.1",
     "mysql2": "^2.0.0",
+    "react": "^18.2.0",
     "socket.io": "^4.7.3"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
+    "eslint-config-chartjs": "^0.3.0",
+    "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-react": "^7.33.2"
   }
 }
-
