@@ -1,7 +1,6 @@
 {
 	"extends": ["./.eslintrc-browser.json"],
-	"main": "dist/jquery.js",
-	"license": "MIT",
+    "license": "MIT",
 	"ignore": ["package.json"],
 	"keywords": ["jquery", "javascript", "browser", "library"],
 	"homepage": "https://github.com/jquery/jquery-dist",
