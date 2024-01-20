@@ -1,6 +1,5 @@
 {
-	"extends": ["./.eslintrc-browser.json"]
-   
-	
+	"extends": ["./.eslintrc-browser.json"],
+	// outras configurações do ESLint...
   }
   
