@@ -1,5 +1,11 @@
 {
 	"extends": ["./.eslintrc-browser.json"],
-	// outras configurações do ESLint...
+	"parserOptions": {
+	  "ecmaVersion": 2021,
+	  "sourceType": "module"
+	},
+	"rules": {
+	  // Adicione suas regras ESLint aqui
+	}
   }
   
